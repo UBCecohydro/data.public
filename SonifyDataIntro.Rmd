@@ -1,0 +1,121 @@
+---
+title: "Sonify data - Intro"
+author: "mark johnson"
+date: "11/21/2016"
+output: html_document
+---
+
+## Sonify data in R
+Why? Good question!  
+
+How? workflow as follows:  
+1. Set up with necessary packages and WavPlayer  
+2. Ingest a time series environmental dataset   
+3. Massage as needed  
+3.1 Eliminate NAs  
+3.2 Assess object length relative to how long you the audio representation of it to last  
+4. Sonify  
+
+```{r}
+# 1.0 load necessary R packages
+library(seewave)
+library(tuneR)
+library(zoo) # needed for some gap filling in a worked example 
+setWavPlayer("afplay") # other options include "mpv", VLC, quicktime, etc. 
+# setWavPlayer("/Applications/VLC.app/Contents/MacOS/VLC") 
+# Above line with VLC is untested, but may work if path makes sense and you have VLC installed
+```
+
+Next, load up your time series of choice. Here, we have two examples, one that needs some massaging, one that doesn't. 
+
+```{r}
+# 2.0 Load in a time series of environmental data. Two examples follow
+CO2_data <- read.table("ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt",
+             sep = "", row.names = NULL,header = F,colClasses = rep("numeric", 7),
+             comment.char = "#", na.strings = -99.99, 
+             col.names = c("Yr", "Mo", "Mo_Yr", "CO2", "Trnd", "X", "dys"))
+head(CO2_data)
+
+# next example is water level measurements in a flooded forest
+pantanal <- read.csv("http://ecohydro.ires.ubc.ca/pdfs/CZ.waterlevel.csv")
+head(pantanal)
+```
+
+Proceed with any necessary data massaging/wrangling. NAs are likely problematic. Gap-fill as appropriate. 
+
+```{r}
+# 3.0 Wrangle your data
+# gap-fill to replace the NA's in the CO2 data
+CO2_data$CO2.gf <- na.locf(CO2_data$CO2)
+head(CO2_data) #check that no NAs in gap-filled data (e.g. CO2_data$CO2.df)
+# Now, the CO2_data$CO2.gf is ready to sonify (as is pantanal$Dw.TT)
+```
+
+Test out your speakers and listen 
+
+```{r}
+# sheep sound
+data(sheep)
+listen(sheep,f=8000)
+str(sheep)
+plot(sheep@left)
+oscillo(sheep)
+
+# bird sound
+data(tico)
+listen(tico,f=8000)
+oscillo(tico)
+```
+
+Give it a try with the provided data or your own. 
+Below we map the variable range onto an audible frequency range. 
+
+```{r}
+# select a vector to sonify (this will be called myVar)
+#myVar <- pantanal$Dw.TT # uncomment if want the water level data for a flooded forest
+myVar <- CO2_data$CO2.gf
+zVar <- (myVar - mean(myVar)) / sd(myVar)  #standardize data to mean = 0 and sd = 1 (though not really needed)
+
+# map the variable range onto an audible frequency range
+f.low <- 200 # frequency of lowest pitch
+f.high <- 4000 # frequency of highest pitch
+m.sound <- (f.high - f.low) / (max(myVar) - min(myVar)) #slope of the data-to-sound relationship
+b.sound <- (f.high + f.low - (max(myVar)+min(myVar))*m.sound)/2   # intercept of the data-to-sound relationship
+
+# expand the data set (if needed) using the rep function. Suggested value of 100 for CO2_data and 10 for Pantanal water level. Adjust as desired. 
+myVar.expanded <- rep(myVar, each = 100)  # the longer the "each", the longer the note for each data point
+
+myVar.freq <- myVar.expanded * m.sound + b.sound
+
+# select harmonics
+clarinet <- c(1, 0, 0.5, 0, 0.14, 0, 0.5, 0, 0.12, 0, 0.17) 
+s <- synth2(ifreq=myVar.freq, f=8000, harmonics = clarinet, listen = FALSE, plot = TRUE, output = "Wave")
+str(s)
+# # object "s" is now stored as a Wave class object, and can be output to use in presentations, websites, random acts of geekery, etc.
+listen(s) 
+```
+
+functionalizing
+
+```{r}
+# make a function of the data-to-sound mapping
+data2sound <- function(x, freq.low, freq.high, expansion.factor){
+  b <- coef(lm(c(freq.low, freq.high) ~ range(x)))[1]
+  m <- coef(lm(c(freq.low, freq.high) ~ range(x)))[2]
+  x.freq <- m * x + b
+  return(x.freq.expand <- rep(x.freq, each = expansion.factor))
+  }
+```
+
+test the function data2sound
+
+```{r}
+myVar <- pantanal$Dw.TT # water level data for a flooded forest
+
+tmp.var <- data2sound(myVar,200,4000,10)
+s2 <- synth2(ifreq = tmp.var, f=8000, harmonics = clarinet, listen = FALSE, output = "Wave")
+listen(s2)
+```
+
+Next steps: 
+Get back to work ...or... build this into a Shiny app
