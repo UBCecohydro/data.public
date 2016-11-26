@@ -23,6 +23,7 @@ library(tuneR)
 library(zoo) # needed for some gap filling in a worked example 
 setWavPlayer("afplay") # other options include "mpv", VLC, quicktime, etc. 
 # setWavPlayer("/Applications/VLC.app/Contents/MacOS/VLC") 
+stopifnot(!is.na(getWavPlayer()) == TRUE) # end script if setWavPlayer is not set
 # Above line with VLC is untested, but may work if path makes sense and you have VLC installed
 ```
 
@@ -72,8 +73,8 @@ Below we map the variable range onto an audible frequency range.
 
 ```{r}
 # select a vector to sonify (this will be called myVar)
-#myVar <- pantanal$Dw.TT # uncomment if want the water level data for a flooded forest
-myVar <- CO2_data$CO2.gf
+myVar <- pantanal$Dw.TT # uncomment if want the water level data for a flooded forest
+#myVar <- CO2_data$CO2.gf
 zVar <- (myVar - mean(myVar)) / sd(myVar)  #standardize data to mean = 0 and sd = 1 (though not really needed)
 
 # map the variable range onto an audible frequency range
@@ -83,13 +84,13 @@ m.sound <- (f.high - f.low) / (max(myVar) - min(myVar)) #slope of the data-to-so
 b.sound <- (f.high + f.low - (max(myVar)+min(myVar))*m.sound)/2   # intercept of the data-to-sound relationship
 
 # expand the data set (if needed) using the rep function. Suggested value of 100 for CO2_data and 10 for Pantanal water level. Adjust as desired. 
-myVar.expanded <- rep(myVar, each = 100)  # the longer the "each", the longer the note for each data point
+myVar.expanded <- rep(myVar, each = 10)  # the longer the "each", the longer the note for each data point
 
 myVar.freq <- myVar.expanded * m.sound + b.sound
 
 # select harmonics
 clarinet <- c(1, 0, 0.5, 0, 0.14, 0, 0.5, 0, 0.12, 0, 0.17) 
-s <- synth2(ifreq=myVar.freq, f=8000, harmonics = clarinet, listen = FALSE, plot = TRUE, output = "Wave")
+s <- synth2(ifreq=myVar.freq, f=8000, harmonics = clarinet, listen = FALSE, plot = FALSE, output = "Wave")
 str(s)
 # # object "s" is now stored as a Wave class object, and can be output to use in presentations, websites, random acts of geekery, etc.
 listen(s) 
@@ -111,11 +112,22 @@ test the function data2sound
 
 ```{r}
 myVar <- pantanal$Dw.TT # water level data for a flooded forest
-
-tmp.var <- data2sound(myVar,200,4000,10)
-s2 <- synth2(ifreq = tmp.var, f=8000, harmonics = clarinet, listen = FALSE, output = "Wave")
+myVar <- CO2_data$CO2.gf
+tmp.var <- data2sound(myVar,200,4000,100)
+s2 <- synth2(ifreq = tmp.var, f=8000, harmonics = clarinet, listen = FALSE, 
+             plot = TRUE, output = "Wave")
 listen(s2)
 ```
 
 Next steps: 
-Get back to work ...or... build this into a Shiny app
+Get back to work ...or... build this into a Shiny app?
+```{r}
+library(magrittr)
+library(lubridate)
+CO2_data$date <- paste0(CO2_data$Yr, " ", CO2_data$Mo) %>% parse_date_time(., "y m") %>% as.Date(.)
+
+library(googleVis)
+M1 <- gvisMotionChart(CO2_data, idvar="CO2", timevar="date")
+plot(M1)
+```
+
