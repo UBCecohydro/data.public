@@ -7,7 +7,7 @@ Journal of Geophysical Research - Biogeosciences
 
 These data are the results from the calculations described in the maniscript for measurements
 taken at the tree island site located in the Brazilian Pantanal
-at 16∞29í52î S, 56∞24í47î W.
+at 16¬∞29‚Äô52‚Äù S, 56¬∞24‚Äô47‚Äù W.
 
 All (+/-) values represent the propagated measurements errors.
 
@@ -32,8 +32,10 @@ Pa           = barometric pressure (hPa) (+/- 0.5 hPa) measured with a WXT520 (V
 PPT          = precipitation (mm) (+/- 5 %) measured with a WXT520 (Vaisala Inc., Helsinki, Finland) 
 GS3T.1       = soil temperature (oC) (+/- 1 oC) measured at 10 cm depth with a GS3 (Decagon Devices, Pullman, WA, USA)
 GS3T.2       = soil temperature (oC) (+/- 1 oC) measured at 30 cm depth with a GS3 (Decagon Devices, Pullman, WA, USA)
-VWC.1        = volumetric water content (m3/m3) (+/- 0.03 m3/m3) measured at 10 cm detph with a GS3 sensor (Decagon Devices Inc., Pullman, WA, USA)
-VWC.2        = volumetric water content (m3/m3) (+/- 0.03 m3/m3) measured at 30 cm depth with a GS3 sensor (Decagon Devices Inc., Pullman, WA, USA)
+VWC.1        = volumetric water content (m3/m3) (+/- 0.03 m3/m3) measured at 10 cm detph with a GS3 sensor (Decagon Devices Inc., 
+               Pullman, WA, USA)
+VWC.2        = volumetric water content (m3/m3) (+/- 0.03 m3/m3) measured at 30 cm depth with a GS3 sensor (Decagon Devices Inc.,
+               Pullman, WA, USA)
 WP.1         = water potential (kPa) (+/- 25 %) measured at 10 cm depth with a MPS sensor (Decagon Devices Inc., Pullman, WA, USA)
 WP.1         = water potential (kPa) (+/- 25 %) measured at 30 cm depth with a MPS sensor (Decagon Devices Inc., Pullman, WA, USA)
 e.CO2.1      = (+/-) error in the CO2.1 measurement (ppm)
@@ -64,32 +66,32 @@ D.10.2       = soil CO2 diffusion (m2/s) at 10 cm depth from E.10.2
 D.30.2       = soil CO2 diffusion (m2/s) at 10 cm depth from E.30.2
 e.D.10.2     = (+/-) error in D.10.2 (m2/s)
 e.D.30.2     = (+/-) error in D.10.3 (m2/s)
-E.10.3       = tortuosity (dimensionless) at 10 cm depth according to our best fit model (see manuscript supplemental material)
-E.30.3       = tortuosity (dimensionless) at 30 cm depth according to our best fit model (see manuscript supplemental material)
+E.10.3       = tortuosity (dimensionless) at 10 cm depth according to our best fit model (see manuscript supporting information)
+E.30.3       = tortuosity (dimensionless) at 30 cm depth according to our best fit model (see manuscript supporting information)
 e.E.10.3     = (+/-) error in E.10.3 (dimensionless)
 e.E.30.3     = (+/-) error in E.30.3 (dimensionless)
 D.10.3       = soil CO2 diffusion (m2/s) at 10 cm depth from E.10.3
 D.30.3       = soil CO2 diffusion (m2/s) at 30 cm depth from E.30.3
 e.D.10.3     = (+/-) error in D.10.3 (m2/s)
 e.D.30.3     = (+/-) error in D.10.3 (m2/s)
-F5           = soil CO2 flux (umol/(m2s))at 5 cm depth following equation (3) in the manuscript and D.10 
-F20          = soil CO2 flux (umol/(m2s))at 20 cm depth following equation (3) in the manuscript and D.30
-e.F5         = (+/-) error in F5 (umol/(m2s))
-e.F20        = (+/-) error in F20 (umol/(m2s))
-F5.2         = soil CO2 flux (umol/(m2s))at 5 cm depth following equation (3) in the manuscript and D.10.2 
-F20.2        = soil CO2 flux (umol/(m2s))at 20 cm depth following equation (3) in the manuscript and D.30.2
-e.F5.2       = (+/-) error in F5.2 (umol/(m2s))
-e.F20.2      = (+/-) error in F20.2 (umol/(m2s))
-F5.3         = soil CO2 flux (umol/(m2s))at 5 cm depth following equation (3) in the manuscript and D.10.3 
-F20.3        = soil CO2 flux (umol/(m2s))at 20 cm depth following equation (3) in the manuscript and D.30.3
-e.F5.3       = (+/-) error in F5.3 (umol/(m2s))
-e.F20.3      = (+/-) error in F20.3 (umol/(m2s))
-F0           = soil CO2 efflux (umol(m2s)) following equation (4) in the manuscript and using D.10 and D.30
-F0.2         = soil CO2 efflux (umol(m2s)) following equation (4) in the manuscript and using D.10.2 and D.30.2
-F0.3         = soil CO2 efflux (umol(m2s)) following equation (4) in the manuscript and using D.10.3 and D.30.3
-e.F0         = (+/-) error in F0 (umol/(m2s))
-e.F0.2       = (+/-) error in F0.2 (umol/(m2s))
-e.F0.3       = (+/-) error in F0.3 (umol/(m2s))
+F5           = soil CO2 flux (gCO2-C/(m2s))at 5 cm depth following equation (8) in the manuscript and D.10 
+F20          = soil CO2 flux (gCO2-C/(m2s))at 20 cm depth following equation (8) in the manuscript and D.30
+e.F5         = (+/-) error in F5 (gCO2-C/(m2s))
+e.F20        = (+/-) error in F20 (gCO2-C/(m2s))
+F5.2         = soil CO2 flux (gCO2-C/(m2s))at 5 cm depth following equation (8) in the manuscript and D.10.2 
+F20.2        = soil CO2 flux (gCO2-C/(m2s))at 20 cm depth following equation (8) in the manuscript and D.30.2
+e.F5.2       = (+/-) error in F5.2 (gCO2-C/(m2s))
+e.F20.2      = (+/-) error in F20.2 (gCO2-C/(m2s))
+F5.3         = soil CO2 flux (gCO2-C/(m2s))at 5 cm depth following equation (8) in the manuscript and D.10.3 
+F20.3        = soil CO2 flux (gCO2-C/(m2s))at 20 cm depth following equation (8) in the manuscript and D.30.3
+e.F5.3       = (+/-) error in F5.3 (gCO2-C/(m2s))
+e.F20.3      = (+/-) error in F20.3 (gCO2-C/(m2s))
+F0           = soil CO2 efflux (gCO2-C/(m2s)) following equation (9) in the manuscript and using D.10 and D.30
+F0.2         = soil CO2 efflux (gCO2-C/(m2s)) following equation (9) in the manuscript and using D.10.2 and D.30.2
+F0.3         = soil CO2 efflux (gCO2-C/(m2s)) following equation (9) in the manuscript and using D.10.3 and D.30.3
+e.F0         = (+/-) error in F0 (gCO2-C/(m2s))
+e.F0.2       = (+/-) error in F0.2 (gCO2-C/(m2s))
+e.F0.3       = (+/-) error in F0.3 (gCO2-C/(m2s))
 K.10         = hydraulic conductivity (cm/d) at 10 cm depth
 K.30         = hydraulic conductivity (cm/d) at 30 cm depth
 K            = average hydraulic conductivity (cm/d) 
