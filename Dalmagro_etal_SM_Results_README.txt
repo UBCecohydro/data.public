@@ -1,11 +1,11 @@
 Supporting Information for 
 
-Dalmagro, H.J.,  LathuilliËre, M.J., Hawthorne, I., Morais, D.M., Pinto J˙nior, O.B.,
+Dalmagro, H.J.,  Lathuilli√®re, M.J., Hawthorne, I., Morais, D.M., Pinto J√∫nior, O.B.,
 Couto, E.G., Johnson, M.S. (2017) Carbon biogeochemistry of a flooded Pantanal forest over three annual flood cycles,
 Biogeochemistry.
 
 These data are the results from the calculations described in the manuscript for measurements taken in the Pantanal 
-flooded forest at 16∞29í53î S, 56∞24í46î W.
+flooded forest at 16¬∞29‚Äô53‚Äù S, 56¬∞24‚Äô46‚Äù W.
 
 Date
 year
@@ -16,7 +16,7 @@ WL           = Water level (cm) measured in 2013 with a WT-HR (TruTrack Inc., Ch
                in 2015 with a a CTD-10 (Decagon Devices Inc., Pullman, WA, USA) 
 DO           = Dissolved oxygen (mg/L) measured at 10 cm below the water surface with a SO-10 (Insite IG, Slidell, Los Angeles, USA)
 Eh           = Oxidation-reduction potential (mV) measured at 10 cm below the water surface with a CSIM11 (Campbell Scientific Inc., Logan, Utah, USA) 
-DOC          = Dissolved organic carbon (mg/L) measured by UV-Vis absorbance using a spectrometer (spectro:lyserÆ-S:can MESSTECHNIK GmbH, Vienna, Austria) 
+DOC          = Dissolved organic carbon (mg/L) measured by UV-Vis absorbance using a spectrometer (spectro:lyser¬Æ-S:can MESSTECHNIK GmbH, Vienna, Austria) 
 CI.DOC       = Confidence interval with +/- 95% in average the DOC
 HIX          = Humification index (dimensionless) according to model from Ohno (2002)
 CI.HIX       = confidence interval with +/- 95% in average the HIX
@@ -26,11 +26,11 @@ SR           = Spectral slope ratio (dimensionless) according to model from Helm
 CI.SR        = Confidence interval with +/- 95% in average the SR
 BIX          = Biological index (dimensionless) according to model from Parlanti et al. (2000)
 CI.BIX       = Confidence interval with +/- 95% in average the BIX
-pCO2         = Partial pressures of CO2 (µatm) the concentration was measured in the gas chromatograph (Agilent Technologies Inc., Santa Clara, CA, USA)
+pCO2         = Partial pressures of CO2 (¬µatm) the concentration was measured in the gas chromatograph (Agilent Technologies Inc., Santa Clara, CA, USA)
 CI.pCO2      = Confidence interval with +/- 95% in average the pCO2
 epCO2        = Excess of partial pressure of CO2 (dimensionless) 
 CI.epCO2     = Confidence interval with +/- 95% in average the epCO2
-pCH4         = Partial pressures of CH4 (µatm) the concentration was measured in the gas chromatograph (Agilent Technologies Inc., Santa Clara, CA, USA)
+pCH4         = Partial pressures of CH4 (¬µatm) the concentration was measured in the gas chromatograph (Agilent Technologies Inc., Santa Clara, CA, USA)
 CI.pCH4      = Confidence interval with +/- 95% in average the pCH4
 epCH4        = Excess of partial pressure of CH4 (dimensionless)
 CI.epCH4     = Confidence interval with +/- 95% in average the epCH4
@@ -43,7 +43,7 @@ CI.FCH4      = Confidence interval with +/- 95% in average the FCH4
 References Cited
 
 Ohno, T. (2002) Fluorescence inner-filtering correction for determining the humification index of dissolved organic matter, 
-    Environmental Science & Technology 36(4):742-746, doi: 10.1021/es0155276
+Environmental Science & Technology 36(4):742-746, doi: 10.1021/es0155276
 
 McKnight, D.M., Boyer, E.W., Westerhoff, P.K. et al. (2001) Spectrofluorometric characterization of dissolved organic matter for 
 indication of precursor organic material and aromaticity, Limnology and Oceanography 46:38-48. doi: 10.4319/lo.2001.46.1.0038
@@ -51,7 +51,7 @@ indication of precursor organic material and aromaticity, Limnology and Oceanogr
 Helms, J.R., Stubbins, A., Ritchie, J.D. et al. (2008) Absorption spectral slopes and slope ratios as indicators of molecular weight, 
 source, and photobleaching of chromophoric dissolved organic matter, Limnology and Oceanography 53:955-969, doi: 10.4319/lo.2008.53.3.0955
 
-Parlanti, E., Wˆrz, K., Geoffroy, L., Lamotte, M. (2000) Dissolved organic matter fluorescence spectroscopy as a tool to estimate biological 
+Parlanti, E., W√∂rz, K., Geoffroy, L., Lamotte, M. (2000) Dissolved organic matter fluorescence spectroscopy as a tool to estimate biological 
 activity in a coastal zone submitted to anthropogenic inputs, Organic geochemistry 31:1765-1781, doi: 10.1016/S0146-6380(00)00124-8
 
 
