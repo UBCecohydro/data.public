@@ -1,0 +1,27 @@
+Data for Water quality and greenhouse gas fluxes for stormwater detained in a constructed wetland
+Journal of Environmental Management
+
+These data include the paramenters used to estimate concentration and fluxes of dissolved greenhouse gases, 
+as well as the results from the calculations described in the manuscript for measurements
+taken at a constructed wetland designed for stormwater managementlocated at 
+the University of British Columbia, Vancouver, Canada (49°15'48.88"N, 123°15'3.00"W)
+
+--------------
+
+Description of parameters:
+
+P       : Pressure in atm
+T       : Temperature in °C
+Ws      : Wind speed in m/s
+CO2_atm : concentration of CO2 in the atmosphere (ppm)
+CH4_atm : concentration of CH4 in the atmosphere (ppm)
+N2O_atm : concentration of N2O in the atmosphere (ppm)
+CO2_hs  : concentration of CO2 in the headspace (ppm)
+CH4_hs  : concentration of CH4 in the headspace (ppm)
+N2O_hs  : concentration of N2O in the headspace (ppm)
+K       : Gas especific exchange coefficient
+V_hs    : Headspace volume (L)
+V_w     : Water volume (L)
+FCO2    : estimated instant flux in µmol m-2 s-1
+FCH4    : estimated instant flux in nmol m-2 s-1
+FN2O    : estimated instant flux in nmol m-2 s-1
