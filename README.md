@@ -3,6 +3,7 @@
 http://dvn.library.ubc.ca/dvn/dv/UBC_EH
 
 List of papers with datasets currently stored on Github:
+
 McDowell, M.J. and M.S. Johnson (2018). Gas transfer velocities evaluated using carbon dioxide as a tracer shows high streamflow to be major driver of total CO2 evasion flux for a headwater stream. Journal of Geophysical Research: Biogeosciences 123: 2183-2197. doi: 10.1029/2018JG004388
 
 Dalmagro, H.J., M.J. Lathuillière, I. Hawthorne, D.D. Morais, O. Pinto Jr., E.G. Couto and M.S. Johnson (2018). Carbon biogeochemistry of a flooded Pantanal forest over three annual flood cycles. Biogeochemistry 139:1-18. doi: 10.1007/s10533-018-0450-1
