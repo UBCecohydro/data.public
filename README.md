@@ -12,6 +12,6 @@ D’Acunha, B., S.-C. Lee and M.S. Johnson (2018). Ecohydrological responses to 
 
 Johnson, M.S., C. Webster, R.S. Jassal, I. Hawthorne and T.A. Black (2017). Biochar influences on soil CO2 and CH4 fluxes in response to wetting and drying cycles for a forest soil. Scientific Reports 7:6780 doi: 10.1038/s41598-017-07224-6. Data file: <SREP-17-16890_data.csv>
 
-Dalmagro, H.J., M.S. Johnson, C.R. de Musis, M.J. Lathuillière, J. Graesser, O.B. Pinto-Jr. and E.G. Couto (2017). Spatial patterns of DOC concentration and DOM optical properties in a Brazilian tropical river-wetland system. Journal of Geophysical Research: Biogeosciences 122. doi: 10.1002/2017JG003797
+Dalmagro, H.J., M.S. Johnson, C.R. de Musis, M.J. Lathuillière, J. Graesser, O.B. Pinto-Jr. and E.G. Couto (2017). Spatial patterns of DOC concentration and DOM optical properties in a Brazilian tropical river-wetland system. Journal of Geophysical Research: Biogeosciences 122. doi: 10.1002/2017JG003797. Data file: <Cuiaba_Basin_Data_JGR_B_Archive.csv>
 
 Lathuillière, M.J., O. Pinto Jr., M.S. Johnson, R.S. Jassal, H.J. Dalmagro, N.K. Leite, A.B. Speratti, D. Krampe and E.G. Couto (2017). Soil CO2 concentrations and efflux dynamics of a tree island in the Pantanal wetland. Journal of Geophysical Research: Biogeosciences 122. doi: 10.1002/2017JG003877
