@@ -2,7 +2,7 @@
 ## Please note that we are in the process of migrating data to a dataverse 
 https://dataverse.scholarsportal.info/dataverse/UBC_EH
 
-Papers on ecohydrology@UBC's dataverse:
+Papers on ecohydrology@UBC's dataverse: 
 Dalmagro, H.J., M.J. Lathuillière, F. da Silva Sallo, M.F. Guerreiro, O.B. Pinto Jr, P.H.Z. de Arruda, E.G. Couto, M.S. Johnson (2018). Streams with Riparian Forest Buffers versus Impoundments Differ in Discharge and DOM Characteristics for Pasture Catchments in Southern Amazonia. Data files: https://doi.org/10.5683/SP2/OKJKR8
 
 # List of papers with datasets currently stored on Github:
