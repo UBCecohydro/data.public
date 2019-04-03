@@ -1,10 +1,11 @@
 # data.public
 ## Please note that we are in the process of migrating data to a dataverse 
-http://dvn.library.ubc.ca/dvn/dv/UBC_EH
+https://dataverse.scholarsportal.info/dataverse/UBC_EH
 
-List of papers with datasets currently stored on Github:
+Papers on ecohydrology@UBC's dataverse:
+Dalmagro, H.J., M.J. Lathuillière, F. da Silva Sallo, M.F. Guerreiro, O.B. Pinto Jr, P.H.Z. de Arruda, E.G. Couto, M.S. Johnson (2018). Streams with Riparian Forest Buffers versus Impoundments Differ in Discharge and DOM Characteristics for Pasture Catchments in Southern Amazonia. Data files: https://doi.org/10.5683/SP2/OKJKR8
 
-Dalmagro, H.J., M.J. Lathuillière, F. da Silva Sallo, M.F. Guerreiro, O.B. Pinto Jr, P.H.Z. de Arruda, E.G. Couto, M.S. Johnson (2018). Pasture catchments with riparian forest buffers vs. impoundments differ in DOM characteristics and hydrology in Southern Amazonia. Submitted Dec 2018 to Water. Data files: <Dalmagro_etal_SM_Water_Data.csv and Dalmagro_etal_SM_Water_Data_README.txt>
+# List of papers with datasets currently stored on Github:
 
 McDowell, M.J. and M.S. Johnson (2018). Gas transfer velocities evaluated using carbon dioxide as a tracer shows high streamflow to be major driver of total CO2 evasion flux for a headwater stream. Journal of Geophysical Research: Biogeosciences 123: 2183-2197. doi: 10.1029/2018JG004388. Data files: <McDowell_Johnson_kCO2_Data.csv and McDowell_Johnson_co2injection_April27.csv>
 
