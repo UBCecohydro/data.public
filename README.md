@@ -7,6 +7,8 @@ Dalmagro, H.J., M.J. Lathuillière, F. da Silva Sallo, M.F. Guerreiro, O.B. Pint
 
 # List of papers with datasets currently stored on Github:
 
+Morillas, L., S.V. Hund and M.S. Johnson. Water use dynamics in double cropping of rainfed upland rice and irrigated melons produced under drought-prone tropical conditions. Under review in Water Resources Research.  
+
 McDowell, M.J. and M.S. Johnson (2018). Gas transfer velocities evaluated using carbon dioxide as a tracer shows high streamflow to be major driver of total CO2 evasion flux for a headwater stream. Journal of Geophysical Research: Biogeosciences 123: 2183-2197. doi: 10.1029/2018JG004388. Data files: <McDowell_Johnson_kCO2_Data.csv and McDowell_Johnson_co2injection_April27.csv>
 
 Dalmagro, H.J., M.J. Lathuillière, I. Hawthorne, D.D. Morais, O. Pinto Jr., E.G. Couto and M.S. Johnson (2018). Carbon biogeochemistry of a flooded Pantanal forest over three annual flood cycles. Biogeochemistry 139:1-18. doi: 10.1007/s10533-018-0450-1. Data files: <Dalmagro_etal_SM_Results.csv and Dalmagro_etal_SM_Results_README.txt>
