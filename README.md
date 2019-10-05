@@ -3,13 +3,17 @@
 https://dataverse.scholarsportal.info/dataverse/UBC_EH
 
 Papers on ecohydrology@UBC's dataverse:  
-Dalmagro, H.J., M.J. Lathuillière, F. da Silva Sallo, M.F. Guerreiro, O.B. Pinto Jr, P.H.Z. de Arruda, E.G. Couto, M.S. Johnson (2018). Streams with Riparian Forest Buffers versus Impoundments Differ in Discharge and DOM Characteristics for Pasture Catchments in Southern Amazonia. Data files: https://doi.org/10.5683/SP2/OKJKR8
+D’Acunha, B., L. Morillas, T.A. Black, A. Christen and M.S. Johnson (2019). Net ecosystem carbon balance of a peat bog undergoing restoration: integrating CO2 and CH4 fluxes from eddy covariance and aquatic evasion with DOC drainage fluxes. Journal of Geophysical Research: Biogeosciences 124:884-901. doi: 10.1029/2019JG005123. Data files: https://doi.org/10.5683/SP2/J3LXTS
+
+D’Acunha, B. and M.S. Johnson (2019). Water quality and greenhouse gas fluxes for stormwater detained in a constructed wetland. Water Resources Management 231: 1232-1240. doi: 10.1016/j.jenvman.2018.10.106. Data files: https://doi.org/10.5683/SP2/YV9JMW
+
+McDowell, M.J. and M.S. Johnson (2018). Gas transfer velocities evaluated using carbon dioxide as a tracer shows high streamflow to be major driver of total CO2 evasion flux for a headwater stream. Journal of Geophysical Research: Biogeosciences 123: 2183-2197. doi: 10.1029/2018JG004388. Data files: https://doi.org/10.5683/SP2/Y4NRG6
+
+Dalmagro, H.J., M.J. Lathuillière, F. da Silva Sallo, M.F. Guerreiro, O.B. Pinto Jr, P.H.Z. de Arruda, E.G. Couto, M.S. Johnson (2018). Streams with Riparian Forest Buffers versus Impoundments Differ in Discharge and DOM Characteristics for Pasture Catchments in Southern Amazonia. Water 11(2), 390; doi: 10.3390/w11020390. Data files: https://doi.org/10.5683/SP2/OKJKR8
 
 # List of papers with datasets currently stored on Github:
 
 Morillas, L., S.V. Hund and M.S. Johnson. Water use dynamics in double cropping of rainfed upland rice and irrigated melons produced under drought-prone tropical conditions. Under review in Water Resources Research.  
-
-McDowell, M.J. and M.S. Johnson (2018). Gas transfer velocities evaluated using carbon dioxide as a tracer shows high streamflow to be major driver of total CO2 evasion flux for a headwater stream. Journal of Geophysical Research: Biogeosciences 123: 2183-2197. doi: 10.1029/2018JG004388. Data files: <McDowell_Johnson_kCO2_Data.csv and McDowell_Johnson_co2injection_April27.csv>
 
 Dalmagro, H.J., M.J. Lathuillière, I. Hawthorne, D.D. Morais, O. Pinto Jr., E.G. Couto and M.S. Johnson (2018). Carbon biogeochemistry of a flooded Pantanal forest over three annual flood cycles. Biogeochemistry 139:1-18. doi: 10.1007/s10533-018-0450-1. Data files: <Dalmagro_etal_SM_Results.csv and Dalmagro_etal_SM_Results_README.txt>
 
